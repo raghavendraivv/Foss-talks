@@ -19,7 +19,7 @@ body {
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 350;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 h3,h5 {
@@ -297,7 +297,14 @@ footer {
   padding-bottom: 32px;
 }
 
-
+.p1 {
+	font-weight: 350;
+	color:#d4d4d4
+}
+.p2 {
+	font-weight: 500;
+	color:#d4d4d4
+}
 
 /*---------------------------------------
     Detail section
@@ -425,6 +432,15 @@ footer {
 -----------------------------------------*/
 #register {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    font-family: fantasy;
+}
+
+#overview {
+    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
