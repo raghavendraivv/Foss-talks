@@ -19,7 +19,7 @@ body {
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 350;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 h3,h5 {
@@ -65,10 +65,13 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#register {
+#overview {
   padding-top: 13rem;
   padding-bottom: 14rem;
+}
+#register {
+  padding-top: 20rem;
+  padding-bottom: 19rem;
 }
 
 #detail, #video,
@@ -208,8 +211,8 @@ footer {
 
 .custom-navbar .nav li a {
     color: #ddd;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 500;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     line-height: 40px;
@@ -294,7 +297,14 @@ footer {
   padding-bottom: 32px;
 }
 
-
+.p1 {
+	font-weight: 350;
+	color:#d4d4d4
+}
+.p2 {
+	font-weight: 500;
+	color:#d4d4d4
+}
 
 /*---------------------------------------
     Detail section
@@ -429,6 +439,15 @@ footer {
     font-family: fantasy;
 }
 
+#overview {
+    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    font-family: fantasy;
+}
+
 #register .form-control {
   background: transparent;
   border: 2px solid #ffffff;
@@ -531,8 +550,8 @@ footer {
     background: url('../images/hall5.jpg') 50% 0 repeat-y fixed;
     background-size: fixed;
     background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 21rem;
+    padding-bottom: 23rem;
     color: white;
     font-family: fantasy;
 }
